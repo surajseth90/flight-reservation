@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Reservation</title>
+    <link rel="stylesheet" href="../css/ui.css">
+</head>
+
+<body>
+
+    <div class="body">
+        <div class="text">
+            <h1 id="text">FLIGHT RESERVATION</h1>
+        </div>
+        <div class="main">
+            <form action="#" class="form">
+                <div class="dep_location content">
+                    <label class="label" for="dep_loc">DEPARTURE LOCATION</label>
+                    <span class="span">:</span>
+                    <input class="input" type="text" id="dep_loc">
+                </div>
+
+                <div class="arr_location content">
+                    <label class="label" for="arr_loc">ARRIVAL LOCATION</label>
+                    <span class="span">:</span>
+                    <input class="input" type="text" id="arr_loc">
+                </div>
+
+
+                <div class="date content">
+                    <label class="label" for="date">DATE</label>
+                    <span class="span">:</span>
+                    <input class="input" type="date" id="date">
+                </div>
+
+                <div class="clas content">
+                    <label class="label" for="E">CLASS</label>
+                    <span class="span">:</span>
+                    <label class="radioTag" for="E">E</label>
+                    <input type="radio" class="flight_class radioInput" name="C" id="E">
+                    <label class="radioTag" for="B">B</label>
+                    <input type="radio" class="flight_class radioInput" name="C" id="B">
+                </div>
+
+                <div class="preference content">
+                    <label class="label" for="f_pref">SELECT PREFERENCE</label>
+                    <span class="span">:</span>
+                    <select class="selection" name="f_pref" id="f_pref">
+                        <option value="1">BY FARE</option>
+                        <option value="2">BY FARE & FLIGHT DURATION</option>
+                    </select>
+                </div>
+
+                <div class="buttons content">
+                    <button type="submit" class="submit button">SUBMIT</button>
+                    <button type="reset" class="reset button">RESET</button>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

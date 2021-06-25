@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-image: url("../assets/pexels-maria-tyutina-249581.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main{
+   
+    width: 700px;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    border:2px solid black ;
+    border-radius: 10px;
+}
+
+.text{
+    margin: 50px;
+    font-size: x-large;
+    font-weight: 1000;
+    font-style: italic;
+    color: black;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+}
+
+.content{
+    display: flex;
+    flex-direction:row ;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    width: 100%;
+    border: 0px solid green;
+}
+
+.input{
+    width: 35%;
+    padding: 12px;   
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: larger;
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.26);
+
+}
+.selection{
+    width: 38%;
+    padding: 12px;   
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.26);
+    color: white;
+
+}
+
+.label{
+    align-items: center;
+    width: 50%;
+    font-size: larger;
+    color: black;
+
+    font-weight: bolder;
+
+ }
+ 
+ label{
+     padding: 12px 12px 12px 12px;
+     display: inline-block;
+ }
+
+ .span{
+     font-size: xx-large;
+     padding-right: 30px;
+     color: black;
+
+ }
+
+ .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .button{
+     padding: 10px;
+     font-size: medium;
+     margin: 20px;
+     background-color: rgba(0, 0, 0, 0.26);
+     border-radius: 4px;
+
+ }
+
+ .button:hover{
+     background-color: rgb(39, 35, 35);
+     color: white;
+ }
+
+ .radioTag{
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+ }
